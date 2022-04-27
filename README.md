@@ -93,7 +93,7 @@ The neat thing about using Tensorflow’s projector is that it gives us a beauti
 
 We were shocked by how this method of training embeddings actually worked. While the 2 million song embedding projector is crowded visually, we see that the recommendations it produces are actually quite good at grouping songs together.
 
-Consider the embedding recommendation for The Beatles’ “A Day In The Hill”:
+Consider the embedding recommendation for The Beatles’ “A Day In The Life”:
 
 ![Screen Shot 2022-04-15 at 5 46 55 PM](https://user-images.githubusercontent.com/51177846/164567966-5af2c500-031f-49f3-8f71-3b392b779b23.png)
 
