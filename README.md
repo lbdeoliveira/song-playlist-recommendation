@@ -41,7 +41,7 @@ We then saved the song embeddings down to MongoDB for later use. Below is a snap
 
  <img width="704" alt="Screen Shot 2022-04-21 at 3 17 48 PM" src="https://user-images.githubusercontent.com/51177846/164567433-dd3870a9-c288-4441-8555-daa9e6cadfb7.png">
 
-Check out the `Song_Embeddings.ipynb` notebook to see how we train song embeddings.
+Check out the [Song_Embeddings.ipynb](https://github.com/lbdeoliveira/song-playlist-recommendation/blob/main/notebooks/Song_Embeddings.ipynb) notebook to see how we train song embeddings.
 
 
 ### Training playlist embeddings
@@ -50,14 +50,14 @@ Finally, we extended our recommendation task beyond simple song recommendation t
 
 This workflow started by reading back the song embeddings from MongoDB into a SparkSQL DataFrame. Then, we calculated a playlist embedding by taking the average of all song embeddings in that playlist and saved a playlist_id --> vector DataFrame in MongoDB. 
 
-Check out the `Playlist_Embeddings.ipynb` notebook to see how we did this.
+Check out the [Playlist_Embeddings.ipynb](https://github.com/lbdeoliveira/song-playlist-recommendation/blob/main/notebooks/Playlist_Embeddings.ipynb) notebook to see how we did this.
 
 
 ### Training lyrics embeddings
 
 We trained lyrics embeddings by loading in a song's lyrics, separating the words into lists, and feeding those words to a Word2Vec model to produce 32-dimensional vectors for each word. We then took the average embedding across all words as that song's lyrical embedding. Ultimately, our analytical goal here was to determine whether users create playlists based on common lyrical themes by seeing if the pairwise song embedding distance and the pairwise lyrical embedding distance between two songs were correlated. Unsurprisingly, it appears they are not. 
 
-Check out the `Lyrical_Embeddings.ipynb` notebook to see our analysis.
+Check out the [Lyrical_Embeddings.ipynb](https://github.com/lbdeoliveira/song-playlist-recommendation/blob/main/notebooks/Lyrical_Embeddings.ipynb) notebook to see our analysis.
 
 
 
