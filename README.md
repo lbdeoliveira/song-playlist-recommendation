@@ -105,12 +105,11 @@ Consider the embedding recommendation for The Beatles’ “A Day In The Life”
 
 Or the recommendation for Jay Z’s “Heart of the City (Ain’t No Love)”:
 
-![Screen Shot 2022-04-15 at 5 52 22 PM](https://user-images.githubusercontent.com/51177846/164567916-28f6ebd6-0473-4d7b-b60c-55af628016f7.png)
+<img src="https://user-images.githubusercontent.com/51177846/164567916-28f6ebd6-0473-4d7b-b60c-55af628016f7.png" height = "400"> </img>
 
 Fan of Taylor Swift? Here are the recommendations for “New Romantics”:
 
-![Screen Shot 2022-04-15 at 5 54 42 PM](https://user-images.githubusercontent.com/51177846/164567889-9ccf8326-7bc8-4c8e-9bc6-f123c0acba3f.png)
-
+<img src="https://user-images.githubusercontent.com/51177846/164567889-9ccf8326-7bc8-4c8e-9bc6-f123c0acba3f.png" height = "400"> </img>
 
 
 Secondly, we were delighted to find naturally occurring clusters in the playlist embeddings. Most notably, we see a cluster containing mostly Christian rock, one with Christmas music, one for reggaeton, and one large cluster where genres span its length rather continuously and intuitively.
@@ -118,6 +117,7 @@ Secondly, we were delighted to find naturally occurring clusters in the playlist
 Note also that when we select a playlist, we have many recommended playlists with the same names. This in essence validates our song embeddings. Recall that playlist embeddings were created by the taking the average embedding of all its songs; the name of the playlists did not factor in at all. That is, similar playlists are similar because they have similar, if not the same songs. The similar names only conceptually reinforce this fact.
 
 
+## Further Scope:
+1. We could use these trained song embeddings in other downstream tasks and see how effective these are. Also, you could download the song embeddings we here: [Embeddings](https://embedding-projector.s3.us-west-2.amazonaws.com/emb_word2vec_2M.tsv) | [Meta Info](https://embedding-projector.s3.us-west-2.amazonaws.com/meta_word2vec_2M.tsv)
 
-
-
+2. We could look at other methods of training these embeddings using some recurrent neural networks and enhanced implementation of this Word2Vec model.
