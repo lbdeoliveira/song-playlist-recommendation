@@ -22,7 +22,7 @@ The most tedious task of this project was collecting as many lyrics for the song
 
 The original dataset contains 1 million playlists spread across 1 thousand JSON files totaling about 33 GB of data. We used PySpark in Databricks to preprocess these separate JSON files into a single SparkSQL DataFrame and then joined this DataFrame with the lyrics we saved. From there, it was easy to read the files back from MongoDB into DataBricks to conduct our future analyses. 
 
-Check out the `Preprocessing.ipynb` notebook to see how we preprocessed the data.
+Check out the [Preprocessing.ipynb](https://github.com/lbdeoliveira/song-playlist-recommendation/blob/main/notebooks/Preprocessing_Pipeline.ipynb) notebook to see how we preprocessed the data.
 
 
 ### Training song embeddings
