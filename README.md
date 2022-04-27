@@ -95,13 +95,17 @@ We were shocked by how this method of training embeddings actually worked. While
 
 Consider the embedding recommendation for The Beatles’ “A Day In The Life”:
 
-![Screen Shot 2022-04-15 at 5 46 55 PM](https://user-images.githubusercontent.com/51177846/164567966-5af2c500-031f-49f3-8f71-3b392b779b23.png)
+<!--- [Screen Shot 2022-04-15 at 5 46 55 PM](https://user-images.githubusercontent.com/51177846/164567966-5af2c500-031f-49f3-8f71-3b392b779b23.png) | ![a day in the life](https://user-images.githubusercontent.com/50548928/165581471-420ad43d-47f9-4aee-bf0c-2de6ac301144.gif)--->
+
+<table><tr>
+<td> <img src="https://user-images.githubusercontent.com/51177846/164567966-5af2c500-031f-49f3-8f71-3b392b779b23.png" alt="Drawing" height = "400"/> </td>
+<td> <img src="https://user-images.githubusercontent.com/50548928/165581471-420ad43d-47f9-4aee-bf0c-2de6ac301144.gif" alt="Drawing" /> </td>
+</tr></table>
 
 
 Or the recommendation for Jay Z’s “Heart of the City (Ain’t No Love)”:
 
 ![Screen Shot 2022-04-15 at 5 52 22 PM](https://user-images.githubusercontent.com/51177846/164567916-28f6ebd6-0473-4d7b-b60c-55af628016f7.png)
-
 
 Fan of Taylor Swift? Here are the recommendations for “New Romantics”:
 
